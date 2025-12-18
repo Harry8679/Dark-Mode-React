@@ -6,6 +6,9 @@ export default function App() {
     <ThemeProvider>
       <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col items-center justify-center gap-6">
         <h1 className="text-4xl font-bold">Dark Mode Test</h1>
+        <div className="p-10 bg-red-200 dark:bg-blue-800 text-black dark:text-white">
+          TEST DARK MODE
+        </div>
         <ThemeToggle />
       </div>
     </ThemeProvider>
